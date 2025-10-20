@@ -28,10 +28,37 @@ Built with AI assistance, this project showcases advanced Minecraft Bedrock add-
 
 Automated builds validate JSON files and package the world for distribution via GitHub Actions.
 
+### Change Logs
+
+See [CHANGELOGS.md](CHANGELOGS.md) for detailed version history.
+
+## Localization
+
+Supports English (en_US) and Spanish (es_MX). Add more languages as needed.
+
+## Community
+
+Join our Discord for feedback and updates: [Discord Link Placeholder]
+
+Forum_link: [Forum Placeholder]
+
+## Age Rating
+
+Rated for ages 7+ - Mild fantasy violence.
+
+## Tags
+
+Adventure, Creative, Survival Challenge, Sci-Fi
+
+## Marketplace Submission
+
+- Prepare 512x512 thumbnail and 3-5 screenshots (1920x1080).
+- Description: Highlight AI features, futuristic themes, and multiplayer potential.
+
 ## Credits
 
 Created by **Dr Siddalingaiah H S** and **AI Build System**.
 
 ## License
 
-MIT License - Use and modify as desired.
+See [LICENSE.txt](LICENSE.txt) for full MIT License details - Use and modify as desired.
