@@ -1,22 +1,35 @@
 {
-  "format_version": "1.20.20",
+  "format_version": "1.21.0",
   "minecraft:item": {
     "description": {
       "identifier": "futureverse:glowing_helmet",
-      "max_stack_size": 1,
-      "is_experimental": false
+      "category": "equipment"
     },
     "components": {
+      "minecraft:display_name": {
+        "value": "item.futureverse:glowing_helmet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "futureverse.glowing_helmet"
+      },
+      "minecraft:durability": {
+        "max_damage": 275,
+        "damage_chance": {
+          "min": 1,
+          "max": 1
+        }
+      },
       "minecraft:wearable": {
         "slot": "slot.armor.head"
       },
       "minecraft:armor": {
-        "protection": 3
+        "protection": 4
       },
-      "minecraft:icon": "futureverse:glowing_helmet",
-      "minecraft:durability": {
-        "max_damage": 165
-      }
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:allow_off_hand": false
     }
   }
 }

@@ -1,31 +1,41 @@
 {
-  "format_version": "1.20.5",
+  "format_version": "1.21.0",
   "minecraft:npc_dialogue": {
     "scenes": [
       {
         "scene_tag": "welcome",
-        "npc_name": "FutureVerse Guide",
-        "text": "Hello adventurer! FutureVerse is under threat by alien invaders. Travel to Sky District, Quantum Garden, Zero-G Arena to defend the city and uncover its secrets!",
+        "npc_name": "npc.futureverse.guide",
+        "text": "quest.futureverse.start.subtitle",
         "buttons": [
           {
-            "name": "Go to Sky District",
-            "commands": ["/function welcome_sequence:sky_district"]
+            "name": "npc.futureverse.option.sky",
+            "commands": [
+              "/function quests/teleport_sky_district"
+            ]
           },
           {
-            "name": "Go to Quantum Garden",
-            "commands": ["/function welcome_sequence:quantum_garden"]
+            "name": "npc.futureverse.option.garden",
+            "commands": [
+              "/function quests/teleport_quantum_garden"
+            ]
           },
           {
-            "name": "Go to Zero-G Arena",
-            "commands": ["/function welcome_sequence:zero_g_arena"]
+            "name": "npc.futureverse.option.arena",
+            "commands": [
+              "/function quests/teleport_zero_g_arena"
+            ]
           },
           {
-            "name": "About Rockets",
-            "commands": ["/tellraw @s {\"text\": \"Collect spacecraft components to build a futuristic rocket and escape the invasion!\", \"color\": \"gold\"}"]
+            "name": "npc.futureverse.option.rockets",
+            "commands": [
+              "/tellraw @s {\"rawtext\":[{\"translate\":\"npc.futureverse.rockets\"}]}"
+            ]
           },
           {
-            "name": "Goodbye",
-            "commands": [" "]
+            "name": "npc.futureverse.option.goodbye",
+            "commands": [
+              " "
+            ]
           }
         ]
       }

@@ -1,22 +1,38 @@
 {
-  "format_version": "1.20.20",
+  "format_version": "1.21.0",
   "minecraft:item": {
     "description": {
       "identifier": "futureverse:laser_sword",
-      "max_stack_size": 1,
-      "is_experimental": false
+      "category": "equipment"
     },
     "components": {
-      "minecraft:attack_damage": 20,
-      "minecraft:can_destroy_in_creative": false,
-      "minecraft:icon": "futureverse:laser_sword",
-      "minecraft:durability": {
-        "max_damage": 50
+      "minecraft:display_name": {
+        "value": "item.futureverse:laser_sword"
       },
-      "minecraft:weapon": {},
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "futureverse.laser_sword"
+      },
+      "minecraft:durability": {
+        "max_damage": 320,
+        "damage_chance": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sword"
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          "minecraft:netherite_ingot",
+          "minecraft:diamond"
+        ]
+      },
+      "minecraft:allow_off_hand": true,
       "minecraft:enchantable": {
-        "value": 20,
-        "slot": "sword"
+        "slot": "sword",
+        "value": 20
       }
     }
   }

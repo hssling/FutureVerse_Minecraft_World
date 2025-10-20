@@ -1,64 +1,48 @@
-# FutureVerse – City of Light
+# FutureVerse - City of Light
 
-A futuristic neon-glass megacity with quests, secrets, and survival-tech gameplay designed for Minecoin Marketplace.
+FutureVerse is a neon-drenched megacity adventure crafted for the Minecraft Marketplace. Touch down in a holographic plaza, ignite cinematic questlines, and defend the skyline against adaptive AI threats while assembling a quantum rocket.
 
-## Features
+## Pillars
 
-- **Adventure Zones**: Sky District, Quantum Garden, Zero-G Arena
-- **Custom Mobs**: Cyber-Wolf, Lumina Drone, Alien Invader, AI Guardian
-- **High-Tech Items**: Laser Sword, Anti-Gravity Boots, Glowing Helmet, Rocket Parts
-- **AI Elements**: Adaptive guardians with intelligent behaviors
-- **Audio Components**: Futuristic ambient sounds and alerts
-- **Visual Effects**: Particle explosions, holographs, and stunning visuals
-- **Quest System**: Interactive NPCs and world interactions
-- **Recipes and Loot**: Custom crafting and drop systems
+- **Cinematic Onboarding**: Auto-built spawn plaza, synchronized lighting, ambient score, and animated NPC introductions.
+- **Quest-Driven Gameplay**: Scoreboard-backed quest stages, daily challenges, multi-stage boss encounters, and branching rewards.
+- **Custom Technology**: Craftable anti-gravity gear, photon weaponry, holographic HUDs, and teleportation utilities.
+- **Living City**: Patrol drones, sentient wolves, and sentry AIs with unique drops and combat behaviors.
+- **Marketplace Ready**: Structured packs, localized strings (en_US, es_MX), custom audio/visual assets, and automated packaging scripts.
 
-## Installation
+## Repository Layout
 
-1. Download the latest release from the releases tab.
-2. Import the `FutureVerse_Minecoin_World.zip` into Minecraft Bedrock Add-Ons.
-3. Create a new world with the FutureVerse template or import it.
-4. Enjoy the futuristic adventure!
+| Path | Purpose |
+| --- | --- |
+| `behavior_packs/FutureVerse_Pack` | AI, entities, loot tables, functions, quest logic. |
+| `resource_packs/FutureVerse_Pack` | Textures, audio, client entities, UI strings. |
+| `worlds/FutureVerse_Minecoin_World` | Template world shell and auto-build scripts. |
+| `scripts` | Utility functions triggered during world startup. |
+| `.github/workflows` | CI to validate JSON and build distributable archives. |
 
-## Development
+## Quick Start
 
-Built with AI assistance, this project showcases advanced Minecraft Bedrock add-on creation.
+1. Run `powershell -ExecutionPolicy Bypass -File tools/package.ps1` to generate Marketplace-ready archives in `dist/`.
+2. Import `dist/FutureVerse.mcworld` into Minecraft Bedrock.
+3. Import `dist/FutureVerse.behavior.zip` and `dist/FutureVerse.resource.zip` for standalone testing if needed.
+4. Launch the world. The onboarding cinematic runs automatically (`/function system/setup` to replay).
 
-### CI/CD
+## Marketplace Submission Notes
 
-Automated builds validate JSON files and package the world for distribution via GitHub Actions.
-
-### Change Logs
-
-See [CHANGELOGS.md](CHANGELOGS.md) for detailed version history.
+- **Visual Assets**: Provide a 512x512 key art thumbnail and 3-5 1920x1080 screenshots highlighting Sky District, Quantum Garden, and Zero-G Arena sequences.
+- **Description Hooks**: Emphasize AI-controlled patrols, co-op quest scaling, and rocket assembly endgame.
+- **Target Audience**: 7+ (mild sci-fi combat). Supports solo or 4-player co-op out of the box.
+- **Technical Compliance**: All JSON validated, pack manifests versioned, and world metadata aligned with Marketplace guidelines.
 
 ## Localization
 
-Supports English (en_US) and Spanish (es_MX). Add more languages as needed.
+- `texts/en_US.lang` - English (US)
+- `texts/es_MX.lang` - Spanish (Latin America)
 
-## Community
-
-Join our Discord for feedback and updates: [Discord Link Placeholder]
-
-Forum_link: [Forum Placeholder]
-
-## Age Rating
-
-Rated for ages 7+ - Mild fantasy violence.
-
-## Tags
-
-Adventure, Creative, Survival Challenge, Sci-Fi
-
-## Marketplace Submission
-
-- Prepare 512x512 thumbnail and 3-5 screenshots (1920x1080).
-- Description: Highlight AI features, futuristic themes, and multiplayer potential.
+Add further languages by mirroring the existing keys.
 
 ## Credits
 
-Created by **Dr Siddalingaiah H S** and **AI Build System**.
+Created by **Dr Siddalingaiah H S** in collaboration with the **AI Build System**.
 
-## License
-
-See [LICENSE.txt](LICENSE.txt) for full MIT License details - Use and modify as desired.
+Licensed under MIT - see [LICENSE.txt](LICENSE.txt).

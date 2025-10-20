@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "futureverse:ai_guardian",
+      "materials": {
+        "default": "entity_emissive_alpha"
+      },
+      "textures": {
+        "default": "textures/entity/ai_guardian"
+      },
+      "geometry": {
+        "default": "geometry.humanoid"
+      },
+      "render_controllers": [
+        "controller.render.humanoid"
+      ]
+    }
+  }
+}

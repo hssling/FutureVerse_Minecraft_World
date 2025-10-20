@@ -1,0 +1,21 @@
+{
+  "resource_pack_name": "FutureVerse - Resource Pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "futureverse.laser_sword": {
+      "textures": "textures/items/laser_sword"
+    },
+    "futureverse.anti_gravity_boots": {
+      "textures": "textures/items/anti_gravity_boots"
+    },
+    "futureverse.glowing_helmet": {
+      "textures": "textures/items/glowing_helmet"
+    },
+    "futureverse.rocket_part": {
+      "textures": "textures/items/rocket_part"
+    },
+    "futureverse.welcome_brief": {
+      "textures": "textures/items/welcome_brief"
+    }
+  }
+}

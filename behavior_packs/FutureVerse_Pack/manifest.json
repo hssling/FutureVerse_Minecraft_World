@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "name": "FutureVerse Behavior Pack",
-    "description": "Custom behaviors for FutureVerse.",
+    "name": "FutureVerse - Behavior Pack",
+    "description": "AI-driven quests, custom mobs, and cinematic events for the FutureVerse world.",
     "uuid": "69beb226-5b0c-4a54-b054-f93970086290",
     "version": [1, 0, 0],
     "min_engine_version": [1, 21, 0]
@@ -13,5 +13,11 @@
       "uuid": "ca0e5391-cbe2-4a97-bd56-29570394d9be",
       "version": [1, 0, 0]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": [
+      "Dr Siddalingaiah H S",
+      "AI Build System"
+    ]
+  }
 }

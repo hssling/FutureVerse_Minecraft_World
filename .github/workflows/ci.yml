@@ -13,19 +13,15 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '22'
-
     - name: Validate JSON files
       run: |
         find . -name "*.json" -exec python3 -m json.tool {} \; > /dev/null 2>&1 || exit 1
 
-    - name: Build ZIP
-      run: zip -r FutureVerse_Minecoin_World.zip .
+    - name: Package distributables
+      shell: pwsh
+      run: ./tools/package.ps1
 
     - uses: actions/upload-artifact@v4
       with:
-        name: minecraft-world-package
-        path: FutureVerse_Minecoin_World.zip
+        name: futureverse-artifacts
+        path: dist/*

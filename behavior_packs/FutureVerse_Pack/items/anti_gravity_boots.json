@@ -1,26 +1,35 @@
 {
-  "format_version": "1.20.20",
+  "format_version": "1.21.0",
   "minecraft:item": {
     "description": {
       "identifier": "futureverse:anti_gravity_boots",
-      "max_stack_size": 1,
-      "is_experimental": false
+      "category": "equipment"
     },
     "components": {
-  "minecraft:wearable": {
-    "slot": "slot.armor.feet"
-  },
+      "minecraft:display_name": {
+        "value": "item.futureverse:anti_gravity_boots"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:icon": {
+        "texture": "futureverse.anti_gravity_boots"
+      },
+      "minecraft:durability": {
+        "max_damage": 256,
+        "damage_chance": {
+          "min": 1,
+          "max": 1
+        }
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet"
+      },
       "minecraft:armor": {
         "protection": 3
       },
-      "minecraft:icon": "futureverse:anti_gravity_boots",
-      "minecraft:durability": {
-        "max_damage": 196
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.boots"
       },
-      "minecraft:enchantable": {
-        "value": 20,
-        "slot": "boots"
-      }
+      "minecraft:allow_off_hand": false
     }
   }
 }

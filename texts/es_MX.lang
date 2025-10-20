@@ -1,9 +1,35 @@
-pack.name=FuturoVerse – Ciudad de Luz
-pack.description=Una megaciudad futurista de vidrio neón con misiones, secretos y jugabilidad tecnológica de supervivencia diseñada para Minecoin Marketplace.
-item.futureverse:laser_sword=Espada Láser
-entity.futureverse:cyber_wolf=Lobo Cibernético
-entity.futureverse:lumina_drone=Dron Luminoso
-item.futureverse:rocket_part=Parte de Cohete
-entity.futureverse:alien_mob=Invader Extraterrestre
-entity.futureverse:ai_guardian=Guardón IA
-credits=Creado por Dr Siddalingaiah H S y Sistema de Construcción IA
+pack.name=FutureVerse - Ciudad de Luz
+pack.description=Una ciudad neon futurista con misiones cinematicas, mobs unicos y equipo avanzado.
+
+item.futureverse:laser_sword=Espada Laser
+item.futureverse:glowing_helmet=Casco Luminoso
+item.futureverse:anti_gravity_boots=Botas Antigravedad
+item.futureverse:rocket_part=Componente Cuantico del Cohete
+item.futureverse:welcome_brief=Informe de Mision
+
+entity.futureverse:cyber_wolf=Lobo Cibernetico
+entity.futureverse:lumina_drone=Dron Lumina
+entity.futureverse:alien_mob=Invasor del Vacio
+entity.futureverse:ai_guardian=IA Centinela
+
+quest.futureverse.start.title=Bienvenido a FutureVerse
+quest.futureverse.start.subtitle=Explora el horizonte neon y defiende la ciudad.
+quest.futureverse.step.sky=Mision del Distrito del Cielo activada. Carga las torres solares y repele drones.
+quest.futureverse.step.garden=Mision del Jardin Cuantico activada. Estabiliza los biomas.
+quest.futureverse.step.arena=Mision de la Arena Cero G activada. Sobrevive a las tormentas de gravedad.
+quest.futureverse.complete=FutureVerse asegurado. La ciudad vuelve a brillar.
+quest.futureverse.progress=Fase de Mision: %s
+
+hud.futureverse.energy_cells=Celdas de Energia
+hud.futureverse.quest_stage=Fase de Mision
+
+npc.futureverse.guide=Guia de la Ciudad Ava
+npc.futureverse.option.sky=Llevame al Distrito del Cielo
+npc.futureverse.option.garden=Llevame al Jardin Cuantico
+npc.futureverse.option.arena=Llevame a la Arena Cero G
+npc.futureverse.option.rockets=Como lanzo el cohete?
+npc.futureverse.option.goodbye=Explorare por mi cuenta.
+npc.futureverse.rockets=Reune nucleos luminosos de drones, fragmentos de aleacion de lobos y llaves de arena para ensamblar el cohete.
+
+message.futureverse.welcome=Bienvenido a FutureVerse
+message.futureverse.credits=Creado por Dr Siddalingaiah H S y el Sistema de Construccion IA

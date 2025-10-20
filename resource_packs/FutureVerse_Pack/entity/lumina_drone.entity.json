@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "futureverse:lumina_drone",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/lumina_drone"
+      },
+      "geometry": {
+        "default": "geometry.vex"
+      },
+      "render_controllers": [
+        "controller.render.vex"
+      ]
+    }
+  }
+}

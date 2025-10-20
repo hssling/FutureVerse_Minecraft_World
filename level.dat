@@ -1,0 +1,10 @@
+This is a placeholder for level.dat. To fix world import:
+
+1. In Minecraft, create a new blank world.
+2. Find the world folder (com.mojang/minecraftWorlds).
+3. Copy the level.dat file into this project's root (FutureVerse_Minecoin_World/level.dat).
+4. Optionally, copy some db folder contents or leave empty.
+
+Then, repack: Compress contents of FutureVerse_Minecoin_World/ into .mcworld again.
+
+This .mcworld is now structured correctly for import (with required root files), replace placeholder for full functionality!

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "futureverse:cyber_wolf",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/cyber_wolf"
+      },
+      "geometry": {
+        "default": "geometry.wolf"
+      },
+      "render_controllers": [
+        "controller.render.wolf"
+      ]
+    }
+  }
+}

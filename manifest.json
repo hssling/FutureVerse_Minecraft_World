@@ -1,17 +1,17 @@
 {
   "format_version": 2,
   "header": {
-    "name": "FutureVerse – City of Light",
-    "description": "A futuristic neon-glass megacity with quests, secrets, and survival-tech gameplay designed for Minecoin Marketplace.",
-    "uuid": "5677a5c2-8d47-4c09-9def-40ccc9bb4164",
+    "name": "FutureVerse - City of Light",
+    "description": "A futuristic megacity adventure built for the Minecraft Marketplace.",
+    "uuid": "3140c251-f770-40d8-8832-ab3f646dac36",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 0],
-    "authors": ["Dr Siddalingaiah H S", "AI Build System"]
+    "min_engine_version": [1, 21, 0]
   },
   "modules": [
     {
+      "description": "FutureVerse world template",
       "type": "world_template",
-      "uuid": "71ba1fc5-7a73-4438-bd5c-58714db6c8c3",
+      "uuid": "7737342a-2a73-42f8-b0fa-24da30f6277d",
       "version": [1, 0, 0]
     }
   ],
@@ -19,6 +19,17 @@
     {
       "uuid": "69beb226-5b0c-4a54-b054-f93970086290",
       "version": [1, 0, 0]
+    },
+    {
+      "uuid": "e0a301e5-48d8-48d0-a1f1-6a9e9ce75146",
+      "version": [1, 0, 0]
     }
-  ]
+  ],
+  "metadata": {
+    "authors": [
+      "Dr Siddalingaiah H S",
+      "AI Build System"
+    ],
+    "license": "MIT"
+  }
 }

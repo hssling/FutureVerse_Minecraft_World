@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.20",
+  "format_version": "1.21.0",
   "minecraft:entity": {
     "description": {
       "identifier": "futureverse:ai_guardian",
@@ -7,44 +7,95 @@
       "is_summonable": true
     },
     "components": {
+      "minecraft:type_family": {
+        "family": [
+          "futureverse",
+          "futureverse_hostile",
+          "guardian"
+        ]
+      },
+      "minecraft:boss": {
+        "should_despawn": false
+      },
       "minecraft:health": {
-        "value": 80,
-        "max": 80
+        "value": 120,
+        "max": 120
       },
       "minecraft:movement": {
         "value": 0.3
       },
-      "minecraft:mob": {},
+      "minecraft:attack": {
+        "damage": 14
+      },
+      "minecraft:knockback_resistance": {
+        "value": 0.8
+      },
+      "minecraft:scale": 1.1,
       "minecraft:collision_box": {
         "width": 0.8,
-        "height": 1.9
+        "height": 2.1
       },
-      "minecraft:damage": {
-        "value": 10
-      },
-      "minecraft:behavior.random_stroll": {},
-      "minecraft:behavior.look_at_target": {},
-      "minecraft:behavior.random_look_around": {},
       "minecraft:behavior.nearest_attackable_target": {
+        "priority": 1,
+        "attack_interval": 10,
+        "must_see": true,
+        "within_radius": 32,
         "entity_types": [
           {
-            "filters": [
-              {
-                "test": "is_family",
-                "subject": "other",
-                "value": "monster"
-              }
-            ],
-            "max_dist": 16
+            "filters": {
+              "test": "is_family",
+              "subject": "other",
+              "value": "player"
+            },
+            "max_dist": 40
           }
-        ],
-        "within_radius": 25.0,
-        "reselect_targets": true,
-        "target_search_height": 8
+        ]
       },
-      "minecraft:can_climb": {},
+      "minecraft:behavior.melee_attack": {
+        "priority": 2,
+        "track_target": true,
+        "speed_multiplier": 1.35
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 0.5
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 32
+      },
+      "minecraft:behavior.retaliate": {
+        "priority": 3
+      },
       "minecraft:loot": {
         "table": "loot_tables/entities/ai_guardian.json"
+      },
+      "minecraft:on_hurt": {
+        "event": "futureverse:on_hurt"
+      },
+      "minecraft:on_death": {
+        "event": "futureverse:on_death"
+      }
+    },
+    "events": {
+      "futureverse:on_hurt": {
+        "run_command": {
+          "command": [
+            "summon futureverse:lumina_drone ~2 ~1 ~",
+            "summon futureverse:lumina_drone ~-2 ~1 ~",
+            "playsound futureverse.alien.alert @a[r=20] ~ ~ ~ 1 1.3"
+          ]
+        }
+      },
+      "futureverse:on_death": {
+        "run_command": {
+          "command": [
+            "scoreboard players add @p[r=40] guardian_kills 1",
+            "title @a[r=40] subtitle {\"rawtext\":[{\"text\":\"Sentinel Offline\"}]}",
+            "playsound futureverse.teleport.effect @a[r=40] ~ ~ ~ 1 0.5",
+            "particle minecraft:endrod ~ ~1 ~ 0.4 0.6 0.4 0 80 force"
+          ]
+        }
       }
     }
   }

@@ -6,12 +6,56 @@
         {
           "type": "item",
           "name": "minecraft:emerald",
-          "weight": 2
+          "weight": 3,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "type": "item",
+          "name": "minecraft:ender_pearl",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
           "name": "futureverse:rocket_part",
-          "weight": 1
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "random_chance_with_looting",
+              "chance": 0.35,
+              "looting_multiplier": 0.1
+            }
+          ],
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     }

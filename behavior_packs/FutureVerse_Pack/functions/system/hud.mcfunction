@@ -1,0 +1,1 @@
+titleraw @a actionbar {"rawtext":[{"translate":"hud.futureverse.quest_stage"},{"text":": "},{"score":{"name":"@s","objective":"quest_stage"}},{"text":"  |  "},{"translate":"hud.futureverse.energy_cells"},{"text":": "},{"score":{"name":"@s","objective":"energy_cells"}}]}

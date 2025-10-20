@@ -5,13 +5,44 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:diamond",
+          "name": "minecraft:nether_star",
           "weight": 1
         },
         {
           "type": "item",
-          "name": "minecraft:nether_star",
-          "weight": 1
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "futureverse:rocket_part",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     }

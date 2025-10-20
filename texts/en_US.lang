@@ -1,8 +1,35 @@
-pack.name=FutureVerse – City of Light
-pack.description=A futuristic neon-glass megacity with quests, secrets, and survival-tech gameplay designed for Minecoin Marketplace.
+pack.name=FutureVerse - City of Light
+pack.description=A neon skyline world with cinematic quests, custom mobs, and high-tech gear.
+
 item.futureverse:laser_sword=Laser Sword
+item.futureverse:glowing_helmet=Glowing Helmet
+item.futureverse:anti_gravity_boots=Anti-Gravity Boots
+item.futureverse:rocket_part=Quantum Rocket Component
+item.futureverse:welcome_brief=Mission Briefing
+
 entity.futureverse:cyber_wolf=Cyber Wolf
 entity.futureverse:lumina_drone=Lumina Drone
-item.futureverse:rocket_part=Rocket Part
-entity.futureverse:ai_guardian=AI Guardian
-credits=Created by Dr Siddalingaiah H S and AI Build System.
+entity.futureverse:alien_mob=Void Invader
+entity.futureverse:ai_guardian=Sentinel AI
+
+quest.futureverse.start.title=Welcome to FutureVerse
+quest.futureverse.start.subtitle=Push forward through the neon skyline and defend the city.
+quest.futureverse.step.sky=Sky District quest activated. Charge the solar towers and repel drones.
+quest.futureverse.step.garden=Quantum Garden quest activated. Stabilise the biospheres.
+quest.futureverse.step.arena=Zero-G Arena quest activated. Survive the gravity storms.
+quest.futureverse.complete=FutureVerse secured! The city shines under your protection.
+quest.futureverse.progress=Quest Stage: %s
+
+hud.futureverse.energy_cells=Energy Cells
+hud.futureverse.quest_stage=Quest Stage
+
+npc.futureverse.guide=City Guide Ava
+npc.futureverse.option.sky=Take me to Sky District
+npc.futureverse.option.garden=Take me to Quantum Garden
+npc.futureverse.option.arena=Take me to Zero-G Arena
+npc.futureverse.option.rockets=How do I launch the rocket?
+npc.futureverse.option.goodbye=I will explore on my own.
+npc.futureverse.rockets=Collect glowing cores from drones, alloy shards from cyber wolves, and vault keys from arenas to assemble the rocket.
+
+message.futureverse.welcome=Welcome to FutureVerse!
+message.futureverse.credits=Created by Dr Siddalingaiah H S and the AI Build System
