@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "futureverse:rocket_part"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "IDI",
+      "D D",
+      "I I"
+    ],
+    "key": {
+      "I": "minecraft:iron_ingot",
+      "D": "minecraft:diamond"
+    },
+    "result": {
+      "item": "futureverse:rocket_part",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "futureverse:rocket_part",
+      "max_stack_size": 64,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:icon": "futureverse:rocket_part",
+      "minecraft:display_name": {
+        "value": "Rocket Part"
+      }
+    }
+  }
+}

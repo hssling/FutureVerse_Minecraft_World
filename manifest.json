@@ -1,0 +1,24 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "FutureVerse – City of Light",
+    "description": "A futuristic neon-glass megacity with quests, secrets, and survival-tech gameplay designed for Minecoin Marketplace.",
+    "uuid": "5677a5c2-8d47-4c09-9def-40ccc9bb4164",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0],
+    "authors": ["Dr Siddalingaiah H S", "AI Build System"]
+  },
+  "modules": [
+    {
+      "type": "world_template",
+      "uuid": "71ba1fc5-7a73-4438-bd5c-58714db6c8c3",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "69beb226-5b0c-4a54-b054-f93970086290",
+      "version": [1, 0, 0]
+    }
+  ]
+}

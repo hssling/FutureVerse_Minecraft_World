@@ -1,0 +1,26 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "futureverse:anti_gravity_boots",
+      "max_stack_size": 1,
+      "is_experimental": false
+    },
+    "components": {
+  "minecraft:wearable": {
+    "slot": "slot.armor.feet"
+  },
+      "minecraft:armor": {
+        "protection": 3
+      },
+      "minecraft:icon": "futureverse:anti_gravity_boots",
+      "minecraft:durability": {
+        "max_damage": 196
+      },
+      "minecraft:enchantable": {
+        "value": 20,
+        "slot": "boots"
+      }
+    }
+  }
+}

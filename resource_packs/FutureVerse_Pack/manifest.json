@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "FutureVerse Resource Pack",
+    "description": "Custom resources for FutureVerse.",
+    "uuid": "e0a301e5-48d8-48d0-a1f1-6a9e9ce75146",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "5583c4f9-90af-4a03-b526-82282aa70383",
+      "version": [1, 0, 0]
+    }
+  ]
+}

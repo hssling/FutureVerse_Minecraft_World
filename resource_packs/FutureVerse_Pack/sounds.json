@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.0",
+  "sound_definitions": {
+    "futureverse.city.ambient": {
+      "sounds": [
+        {
+          "name": "sounds/ambient/city_ambient",
+          "volume": 0.5,
+          "pitch": 1.0
+        }
+      ],
+      "subtitle": "Futuristic city ambient"
+    },
+    "futureverse.alien.alert": {
+      "sounds": [
+        {
+          "name": "sounds/alien/alert_sound",
+          "volume": 1.0,
+          "pitch": 0.8
+        }
+      ],
+      "subtitle": "Alien invasion alert"
+    },
+    "futureverse.teleport.effect": {
+      "sounds": [
+        {
+          "name": "sounds/effects/teleport_swoosh",
+          "volume": 0.8,
+          "pitch": 1.2
+        }
+      ],
+      "subtitle": "Teleport effect"
+    }
+  }
+}

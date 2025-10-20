@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "FutureVerse Behavior Pack",
+    "description": "Custom behaviors for FutureVerse.",
+    "uuid": "69beb226-5b0c-4a54-b054-f93970086290",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ca0e5391-cbe2-4a97-bd56-29570394d9be",
+      "version": [1, 0, 0]
+    }
+  ]
+}

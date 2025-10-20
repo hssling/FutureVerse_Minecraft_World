@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.20",
+  "minecraft:item": {
+    "description": {
+      "identifier": "futureverse:laser_sword",
+      "max_stack_size": 1,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:attack_damage": 20,
+      "minecraft:can_destroy_in_creative": false,
+      "minecraft:icon": "futureverse:laser_sword",
+      "minecraft:durability": {
+        "max_damage": 50
+      },
+      "minecraft:weapon": {},
+      "minecraft:enchantable": {
+        "value": 20,
+        "slot": "sword"
+      }
+    }
+  }
+}
